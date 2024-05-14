@@ -385,6 +385,12 @@ civic_destinys_gift = {
 		}
 		origin = {
 			NOR = {
+				text =  this_is_destinys
+				value = origin_poems_of_destiny
+			}
+		}
+		origin = {
+			NOR = {
 				text = first_no
 				value = origin_imperial_vassal
 				value = origin_scion
