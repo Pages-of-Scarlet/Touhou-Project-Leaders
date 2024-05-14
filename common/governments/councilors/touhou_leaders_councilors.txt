@@ -105,36 +105,41 @@ councilor_kirisame_magic_corp = {
 	}
 }
 
-councilor_scarlet_allience = {
+councilor_destinys_gift = {
 	leader_class = { commander official scientist }
 	is_leader_possible = {
 		OR = {
 			has_trait = leader_trait_time
+			has_trait = leader_trait_time_incomplete
 			has_trait = leader_trait_kongfu
+			has_trait = leader_trait_kongfu_incomplete
 			has_trait = leader_trait_elements
-			has_trait = leader_trait_destiny_manipulation
+			has_trait = leader_trait_elements_incomplete
 		}
 	}
 	civic = civic_scarlet_allience
 	modifier = {
-		country_influence_produces_mult = 0.03
+		country_unity_produces_mult = 0.03
+		council_agenda_progress_speed = 0.03
 	}
 }
 
-councilor_scarlet_allience_corp = {
+councilor_destinys_gift_corp = {
 	leader_class = { commander official scientist }
 	is_leader_possible = {
 		OR = {
 			has_trait = leader_trait_time
+			has_trait = leader_trait_time_incomplete
 			has_trait = leader_trait_kongfu
+			has_trait = leader_trait_kongfu_incomplete
 			has_trait = leader_trait_elements
-			has_trait = leader_trait_destiny_manipulation
+			has_trait = leader_trait_elements_incomplete
 		}
 	}
 	civic = civic_scarlet_allience_corp
 	modifier = {
-		country_influence_produces_mult = 0.02
-		country_energy_produces_mult = 0.02
+		trade_value_mult = 0.03
+		branch_office_value_mult = 0.03
 	}
 }
 
