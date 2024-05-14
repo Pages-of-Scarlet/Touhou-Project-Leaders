@@ -117,7 +117,7 @@ councilor_destinys_gift = {
 			has_trait = leader_trait_elements_incomplete
 		}
 	}
-	civic = civic_scarlet_allience
+	civic = civic_destinys_gift
 	modifier = {
 		country_unity_produces_mult = 0.03
 		council_agenda_progress_speed = 0.03
@@ -136,7 +136,7 @@ councilor_destinys_gift_corp = {
 			has_trait = leader_trait_elements_incomplete
 		}
 	}
-	civic = civic_scarlet_allience_corp
+	civic = civic_destinys_gift_corp
 	modifier = {
 		trade_value_mult = 0.03
 		branch_office_value_mult = 0.03
