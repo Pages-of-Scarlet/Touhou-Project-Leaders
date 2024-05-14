@@ -385,16 +385,31 @@ civic_destinys_gift = {
 		}
 		origin = {
 			NOR = {
+				text = first_no
 				value = origin_imperial_vassal
 				value = origin_scion
-				value = origin_common_ground
-				value = origin_void_dwellers
 				value = origin_toxic_knights
+			}
+		}
+		origin = {
+			NOR = {
+				text = second_no
 				value = origin_payback
 				value = origin_fear_of_the_dark
-				value = origin_synthetic_fertility
-				value = origin_cybernetic_creed
 				value = origin_clone_army
+				value = origin_post_apocalyptic
+				value = origin_doomsday
+				value = origin_ocean_paradise
+				value = origin_void_dwellers
+				value = origin_synthetic_fertility
+			}
+		}
+		origin = {
+			NOR = {
+				text = third_no
+				value = origin_shroudwalker_apprentice
+				value = origin_cybernetic_creed
+				value = origin_synthetic_fertility
 			}
 		}
 		species_archetype = {
@@ -452,16 +467,31 @@ civic_destinys_gift_corp = {
 		}
 		origin = {
 			NOR = {
+				text = first_no
 				value = origin_imperial_vassal
 				value = origin_scion
-				value = origin_common_ground
-				value = origin_void_dwellers
 				value = origin_toxic_knights
+			}
+		}
+		origin = {
+			NOR = {
+				text = second_no
 				value = origin_payback
 				value = origin_fear_of_the_dark
-				value = origin_synthetic_fertility
-				value = origin_cybernetic_creed
 				value = origin_clone_army
+				value = origin_post_apocalyptic
+				value = origin_doomsday
+				value = origin_ocean_paradise
+				value = origin_void_dwellers
+				value = origin_synthetic_fertility
+			}
+		}
+		origin = {
+			NOR = {
+				text = third_no
+				value = origin_shroudwalker_apprentice
+				value = origin_cybernetic_creed
+				value = origin_synthetic_fertility
 			}
 		}
 		species_archetype = {
