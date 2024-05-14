@@ -427,12 +427,9 @@ civic_destinys_gift = {
 		base = 0
 	}
 	modifier = {
-		planet_decision_enact_speed_mult = 0.1
-		planet_amenities_mult = 0.1
-		edicts_upkeep_mult = -0.1
-		empire_size_mult = -0.05
-		pop_happiness = 0.05
-		planet_stability_add = 5
+		pop_happiness = 0.06
+		planet_stability_add = 6
+		pop_amenities_usage_mult = -0.06
 	}
 }
 
@@ -502,12 +499,9 @@ civic_destinys_gift_corp = {
 		base = 0
 	}
 	modifier = {
-		planet_decision_enact_speed_mult = 0.1
-		planet_amenities_mult = 0.1
-		edicts_upkeep_mult = -0.1
-		empire_size_mult = -0.05
-		pop_happiness = 0.05
-		planet_stability_add = 5
+		pop_happiness = 0.06
+		planet_stability_add = 6
+		pop_amenities_usage_mult = -0.06
 	}
 }
 
